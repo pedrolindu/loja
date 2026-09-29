@@ -1,0 +1,27 @@
+ body{
+    background-color:azure;
+    margin:0;
+     line-height: 1.7;
+ }
+ .titulo{
+    background-color: rgb(169, 44, 197);
+    padding: 20px;
+    height: 30px;
+    width: 100%;
+    
+ }
+h1{
+    color: azure;
+}
+.produtos{
+    align-items: center;
+}
+.catalogo{
+    padding: 350px;
+}
+.preco{
+
+}
+.descricao{
+    
+}
