@@ -1,27 +1,71 @@
- body{
-    background-color:azure;
-    margin:0;
-     line-height: 1.7;
- }
- .titulo{
-    background-color: rgb(169, 44, 197);
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
     padding: 20px;
-    height: 30px;
-    width: 100%;
-    
- }
-h1{
-    color: azure;
 }
-.produtos{
-    align-items: center;
-}
-.catalogo{
-    padding: 350px;
-}
-.preco{
+
+.titulo {
+    text-align: center;
+    color: #333;
+    background-color:#28a745 ;
 
 }
-.descricao{
+
+
+.catalogo {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
     
+}
+
+
+.produtos {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    height: 410px;
+    text-align: center;
+    
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.produtos:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+.anao {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #218838;
 }
